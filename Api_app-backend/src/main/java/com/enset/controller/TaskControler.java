@@ -23,7 +23,7 @@ public class TaskControler {
 	private TaskService service;
 	
 	@GetMapping("/liste")
-	public List<Map<String, Object>> listar(Model model) {
+	public List<Map<String, Object>> liste_tasks(Model model) {
 		return service.liste();
 	}
 		
@@ -41,9 +41,9 @@ public class TaskControler {
 		p.setId(id);
 		int r=service.edit(p);
 		if(r==0) {
-			return "No se pudo Actualizar!";
+			return "n'a pas pu mettre à jour!";
 		}
-		return "n'a pas pu mettre à jour!";
+		return "mis à jour avec succès!";
 	}
 	@PostMapping("/delete/{id}")
 	public String delete(@PathVariable int id,Model model) {

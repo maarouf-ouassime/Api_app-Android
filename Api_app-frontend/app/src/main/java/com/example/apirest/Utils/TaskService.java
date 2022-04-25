@@ -14,18 +14,14 @@ public interface TaskService {
 
     @GET("liste")
     Call<List<Task>> getTasks();
-    //Call<List<Task>> getTasks();
 
     @POST("add")
     Call<Task> addTask(@Body Task task);
-    //Call<Task>addTask(@Body Task task);
 
     @POST("update/{id}")
     Call<Task> updateTask(@Body Task task, @Path("id") int id);
-    //Call<Task>updateTask(@Body Task task, @Path("id") int id);
 
     @POST("delete/{id}")
     Call<Task> deleteTask(@Path("id")int id);
-    //Call<Task>deleteTask(@Path("id")int id);
 
 }

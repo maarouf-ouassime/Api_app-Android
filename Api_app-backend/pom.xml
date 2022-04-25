@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.enset</groupId>
-	<artifactId>ServiceRest</artifactId>
+	<artifactId>Api_app-backend</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>ServiceRest</name>
+	<name>Api_app-backend</name>
 	<description>Demo project for Spring Boot</description>
 
 	<properties>

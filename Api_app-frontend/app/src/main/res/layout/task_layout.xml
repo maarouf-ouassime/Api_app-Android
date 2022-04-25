@@ -29,7 +29,7 @@
             android:id="@+id/Tasks"
             android:layout_width="match_parent"
             android:layout_height="50px"
-            android:text="NOMBRES"/>
+            android:text="NOM"/>
 
         <EditText
             android:id="@+id/txtTasks"
@@ -39,7 +39,7 @@
             android:id="@+id/Descriptions"
             android:layout_width="match_parent"
             android:layout_height="50px"
-            android:text="APELLIDOS"/>
+            android:text="DESCRIPTION"/>
 
         <EditText
             android:id="@+id/txtDescriptions"

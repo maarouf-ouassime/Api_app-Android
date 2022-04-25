@@ -31,13 +31,13 @@ public class TaskAdapter extends ArrayAdapter<Task> {
         LayoutInflater layoutInflater=(LayoutInflater)context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
         View rowView=layoutInflater.inflate(R.layout.content_main,parent,false);
 
-        TextView txtidPersona=(TextView)rowView.findViewById(R.id.IdTask);
-        TextView txtNombre=(TextView)rowView.findViewById(R.id.Nom);;
-        TextView txtApellidos=(TextView)rowView.findViewById(R.id.Description);;
+        TextView txtidTask=(TextView)rowView.findViewById(R.id.IdTask);
+        TextView txtNom=(TextView)rowView.findViewById(R.id.Nom);;
+        TextView txtDescription=(TextView)rowView.findViewById(R.id.Description);;
 
-        txtidPersona.setText(String.format("ID:%d", tasks.get(position).getId()));
-        txtNombre.setText(String.format("NOM:%s", tasks.get(position).getNom()));
-        txtApellidos.setText(String.format("DESCRIPTION: %s", tasks.get(position).getDescription()));
+        txtidTask.setText(String.format("ID:%d", tasks.get(position).getId()));
+        txtNom.setText(String.format("NOM:%s", tasks.get(position).getNom()));
+        txtDescription.setText(String.format("DESCRIPTION: %s", tasks.get(position).getDescription()));
 
         rowView.setOnClickListener(new View.OnClickListener() {
             @Override
