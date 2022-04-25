@@ -17,51 +17,60 @@
             android:id="@+id/Id"
             android:layout_width="match_parent"
             android:layout_height="50px"
-            android:text="ID"/>
+            android:text="ID"
+            android:textStyle="bold"/>
 
         <EditText
             android:id="@+id/txtId"
             android:layout_width="match_parent"
             android:layout_height="60dp"
             android:enabled="false"
-            tools:ignore="SpeakableTextPresentCheck" />
+            tools:ignore="SpeakableTextPresentCheck"
+            android:textStyle="bold"/>
         <TextView
             android:id="@+id/Tasks"
             android:layout_width="match_parent"
             android:layout_height="50px"
-            android:text="NOM"/>
+            android:text="NOM"
+            android:textStyle="bold"/>
 
         <EditText
             android:id="@+id/txtTasks"
             android:layout_width="match_parent"
-            android:layout_height="60dp" />
+            android:layout_height="60dp"
+            android:textStyle="bold"/>
         <TextView
             android:id="@+id/Descriptions"
             android:layout_width="match_parent"
             android:layout_height="50px"
-            android:text="DESCRIPTION"/>
+            android:text="DESCRIPTION"
+            android:textStyle="bold"/>
 
         <EditText
             android:id="@+id/txtDescriptions"
             android:layout_width="match_parent"
-            android:layout_height="60dp" />
+            android:layout_height="60dp"
+            android:textStyle="bold"/>
 
         <Button
             android:id="@+id/btnSave"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="SAVE" />
+            android:text="SAVE"
+            android:textStyle="bold"/>
         <Button
             android:id="@+id/btnDelete"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Delete" />
+            android:text="Delete"
+            android:textStyle="bold"/>
 
         <Button
             android:id="@+id/btnReturn"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Return" />
+            android:text="Return"
+            android:textStyle="bold"/>
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

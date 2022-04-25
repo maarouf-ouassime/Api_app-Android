@@ -20,7 +20,6 @@ public class Task {
     public Task(){
 
     }
-
     public Task(int id, String nom, String description) {
         this.id = id;
         this.nom = nom;

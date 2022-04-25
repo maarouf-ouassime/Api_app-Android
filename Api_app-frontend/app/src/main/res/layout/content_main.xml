@@ -13,17 +13,21 @@
               <TextView
                 android:id="@+id/IdTask"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent" />
+                android:layout_height="match_parent"
+                  android:textStyle="bold"
+                  />
 
             <TextView
                 android:id="@+id/Nom"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"/>
+                android:layout_height="match_parent"
+                android:textStyle="bold"/>
 
             <TextView
                 android:id="@+id/Description"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:textStyle="bold"
                 />
     </LinearLayout>
 
